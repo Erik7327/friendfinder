@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FriendFinder</title>
+
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome Glyphicons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+    <!-- Chosen -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Here we go with the questions</h2>
+        <hr>
+
+        <h3><strong>What about You</strong></h3>
+        <h4>Your name is? (Required)</h4>
+        <input type="text" id="name" class="form-control" required>
+
+        <h4>Lets get a Photo Image for you (Required)</h4>
+        <input type="text" id="photo" class="form-control" required>
+
+        <hr>
+
+        <h3><strong>Question 1</strong></h3>
+        <h4>You always have something new on your mind.</h4>
+        <select class="chosen-select" id="q1">
+      <option value=""></option>
+      <option value="1">0 (Nah bruh!)</option>
+      <option value="2">2(Eh)</option>
+      <option value="3">3(Maybe)</option>
+      <option value="4">4(It is possible)</option>
+      <option value="5">100 (Yup that's me!)</option>
+    </select>
+
+        <h3><strong>Question 2</strong></h3>
+        <h4>Generally you're more creative than technical.</h4>
+        <select class="chosen-select" id="q2">
+      <option value=""></option>
+      <option value="1">0 (Nah bruh!)</option>
+      <option value="2">2(Eh)</option>
+      <option value="3">3(Maybe)</option>
+      <option value="4">4(It is possible)</option>
+      <option value="5">100 (Yaaaassss!)</option>
+    </select>
+
+
+        <h3><strong>Question 3</strong></h3>
+        <h4>Your a calm and collected individual even when under stress.</h4>
+        <select class="chosen-select" id="q3">
+      <option value=""></option>
+      <option value="1">0 (Neh!)</option>
+      <option value="2">2(Eh)</option>
+      <option value="3">3(Maybe)</option>
+      <option value="4">4(It is possible)</option>
+      <option value="5">100 (Yasapalooza!)</option>
+    </select>
+
+
+        <h3><strong>Question 4</strong></h3>
+        <h4>You find that your more indecisive than most.</h4>
+        <select class="chosen-select" id="q4">
+      <option value=""></option>
+      <option value="1">0 (Nah bruh!)</option>
+      <option value="2">2(Eh)</option>
+      <option value="3">3(Maybe)</option>
+      <option value="4">4(It is possible)</option>
+      <option value="5">100 (Yup that's me!)</option>
+    </select>
+
+
+        <h3><strong>Question 5</strong></h3>
+        <h4>You can always apease to any crowd whether you like it or not.</h4>
+        <select class="chosen-select" id="q5">
+      <option value=""></option>
+      <option value="1">0 (Nah bruh!)</option>
+      <option value="2">2(Eh)</option>
+      <option value="3">3(Maybe)</option>
+      <option value="4">4(It is possible)</option>
+      <option value="5">100 (Yup that's me!)</option>
+    </select>
+
+
+        <h3><strong>Question 6</strong></h3>
+        <h4>You have strong empethetic and sypathetic capabilities.</h4>
+        <select class="chosen-select" id="q6">
+      <option value=""></option>
+      <option value="1">0 (Nah bruh!)</option>
+      <option value="2">2(Eh)</option>
+      <option value="3">3(Maybe)</option>
+      <option value="4">4(It is possible)</option>
+      <option value="5">100 (Yup that's me!)</option>
+    </select>
+
+
+        <h3><strong>Question 7</strong></h3>
+        <h4>In a discussion, truth should be more important than people’s sensitivities.</h4>
+        <select class="chosen-select" id="q7">
+      <option value=""></option>
+      <option value="1">0 (Nah bruh!)</option>
+      <option value="2">2(Eh)</option>
+      <option value="3">3(Maybe)</option>
+      <option value="4">4(It is possible)</option>
+      <option value="5">100 (Yup that's me!)</option>
+    </select>
+
+        <h3><strong>Question 8</strong></h3>
+        <h4>If you were a super hero, you would want to be admired in the open.</h4>
+        <select class="chosen-select" id="q8">
+      <option value=""></option>
+      <option value="1">0 (Nah bruh!)</option>
+      <option value="2">2(Eh)</option>
+      <option value="3">3(Maybe)</option>
+      <option value="4">4(It is possible)</option>
+      <option value="5">100 (Yup that's me!)</option>
+    </select>
+
+        <h3><strong>Question 9</strong></h3>
+        <h4>If you were in a zombie apocolypse situation with multiple people, you feel every one should have a opinion to be heard.</h4>
+        <select class="chosen-select" id="q9">
+      <option value=""></option>
+      <option value="1">0 (Nah bruh!)</option>
+      <option value="2">2(Eh)</option>
+      <option value="3">3(Maybe)</option>
+      <option value="4">4(It is possible)</option>
+      <option value="5">100 (Yup that's me!)</option>
+    </select>
+
+        <h3><strong>Question 10</strong></h3>
+        <h4>You feel better when your with people than alone.</h4>
+        <select class="chosen-select" id="q10">
+      <option value=""></option>
+      <option value="1">0 (Nah bruh!)</option>
+      <option value="2">2(Eh)</option>
+      <option value="3">3(Maybe)</option>
+      <option value="4">4(It is possible)</option>
+      <option value="5">100 (Yup that's me!)</option>
+    </select>
+
+        <br>
+        <br>
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></i>
+     Submit</button>
+
+        <hr>
+        <footer class="footer">
+            <div class="container">
+                <p><a href="https://github.com/afhaque/friendfinder">GitHub Repo</a></p>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Modal -->
+    <div id="results-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h2 class="modal-title"><strong>Best Match</strong></h2>
+                </div>
+                <div class="modal-body">
+                    <h2 id="match-name"></h2>
+                    <img id="match-img" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg" alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- problem with file routes -->
+    <script src="/../data/survey.js"></script>
+
+</body>
+
+</html>
